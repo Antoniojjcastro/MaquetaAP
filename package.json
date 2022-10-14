@@ -1,0 +1,22 @@
+{
+  "name": "maquetaap",
+  "version": "1.0.0",
+  "description": "maqueta pagina web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antoniojjcastro/MaquetaAP.git"
+  },
+  "author": "Antonio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Antoniojjcastro/MaquetaAP/issues"
+  },
+  "homepage": "https://github.com/Antoniojjcastro/MaquetaAP#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}

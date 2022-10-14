@@ -1,0 +1,96 @@
+:root{
+    --button-color:#198778;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+.parallax {
+    height: 95vh;
+    background-image: url('/asset/back1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parallax2 {
+    height: 5vh;
+    background-image: url('/asset/back.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.text{
+    font-size: 15px;
+    color: aliceblue;
+   /* font-family: 'Monoton', cursive;*/
+   font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.text2{
+   font-size: 35px;
+}
+.text3{
+     font-size: 20px;
+  }
+
+@keyframes letra{
+    50%{
+        
+        font-weight:100;
+    }      
+}
+
+.letra:hover{
+    color: yellow;
+    animation: letra 0. 0.5s ease-out;
+   
+}
+
+.border{
+border:tomato;
+border-width: 3px;
+}
+
+.parpadeo{
+    animation: parpadeo 4s infinite;
+}
+
+@keyframes parpadeo{
+    50%{
+        color: rgb(0, 0, 0);
+    }      
+}
+
+    .bg-pers{
+        background-color: rgba(0, 0, 0, 0.514);
+        
+        
+    }
+
+
+.btn-outline-button {
+  --bs-btn-color: var(--button-color);
+  --bs-btn-border-color: var(--button-color);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--button-color);
+  --bs-btn-hover-border-color: var(--button-color);
+  --bs-btn-focus-shadow-rgb: 25, 135, 84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--button-color);
+  --bs-btn-active-border-color: var(--button-color);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: var(--button-color);
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: var(--button-color);
+  --bs-gradient: none;
+}
