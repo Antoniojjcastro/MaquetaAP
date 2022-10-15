@@ -9,6 +9,12 @@
     padding: 0;
 }
 
+body{
+    max-width: 1000px;
+    margin:auto;
+    background-color: rgb(0, 0, 0);
+}
+
 .center {
     text-align: center;
 }
@@ -16,17 +22,18 @@
 
 
 .parallax {
-    height: 95vh;
+    height: 100vh;
     background-image: url('/asset/back1.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
-.parallax2 {
-    height: 5vh;
-    background-image: url('/asset/back.jpg');
+.parallax2{
+    height: 200px;
+    background-image: url('/asset/back4.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
+
 
 
 .text{
@@ -37,7 +44,7 @@
 }
 
 .text2{
-   font-size: 35px;
+   font-size:2em;
 }
 .text3{
      font-size: 20px;
@@ -51,9 +58,8 @@
 }
 
 .letra:hover{
-    color: yellow;
+    color: var(--button-color);
     animation: letra 0. 0.5s ease-out;
-   
 }
 
 .border{
@@ -94,3 +100,5 @@ border-width: 3px;
   --bs-btn-disabled-border-color: var(--button-color);
   --bs-gradient: none;
 }
+
+
