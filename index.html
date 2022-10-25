@@ -15,19 +15,19 @@
 </head>
 
 <body>
-
   <!--header/ navbar -->
   <header>
     <div class="container p-0">
-      <nav class="navbar navbar-expand-lg" style="position:relative; top:0; z-index:100;height:50px;">
-        <a class="navbar-brand text-header ms-3" href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa"
-          target="_blank"> <img src="/asset/icono.JPG" height="25px" width="25px">#ARGENTINA PROGRAMA</a>
+      <nav class="navbar navbar-expand-lg " style="position:relative; top:0; z-index:100;height:50px;">
+        <a class="navbar-brand text-header ms-3"
+          href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank"> <img
+            src="/asset/icono.JPG" height="25px" width="25px">#ARGENTINA PROGRAMA</a>
         <button class="navbar-toggler me-3" style="background-color:rgba(255, 255, 255, 0.329);" type="button"
           data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse bg-black " id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto ">
             <li class="nav-item">
               <a class="nav-link text-header" aria-current="page" href="#quienSoy">¿Quien Soy?</a>
@@ -40,7 +40,7 @@
                 aria-expanded="false">
                 Secciones
               </a>
-              <ul class="dropdown-menu dropdown-menu-dark">
+              <ul class="dropdown-menu dropdown-menu-dark bg-dropdown">
                 <li><a class="dropdown-item text-header" href="#educacion">Educacion</a></li>
                 <li><a class="dropdown-item text-header" href="#proyecto">Proyecto</a></li>
                 <li><a class="dropdown-item text-header" href="#experiencia">Experiencia</a></li>
@@ -92,38 +92,38 @@
   <section>
     <div class="container p-3 " id="educacion">
       <h1 class="mt-lg-1 mt-md-3 mt-xs-1">EDUCACION</h1>
+      <div class="card  mb-3 bg-card-educ">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./IMAGENES/back4.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 bg-card-educ">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./IMAGENES/back4.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <div class="card mb-3 bg-card-educ" >
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="./IMAGENES/back4.jpg" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card mb-3 bg-card-educ" >
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="./IMAGENES/back4.jpg" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card mb-3 bg-card-educ" >
+      <div class="card mb-3 bg-card-educ">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="./IMAGENES/back4.jpg" class="img-fluid rounded-start" alt="...">
@@ -218,7 +218,7 @@
             <img src="/IMAGENES/back2.jpg" alt="">
           </div>
           <div class="content">
-            <div>     
+            <div>
               <span class="d-lg-none d-xl-block eye"><i class="bi bi-eye"></i></span>
               <h2>hola mundo</h2>
               <p>
@@ -253,7 +253,7 @@
           </div>
           <div class="content">
             <div>
-              <span class="d-lg-none d-xl-block eye" ><i class="bi bi-eye"></i></span>
+              <span class="d-lg-none d-xl-block eye"><i class="bi bi-eye"></i></span>
               <h2>hola mundo</h2>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo maxime unde, iusto natus et
@@ -287,38 +287,45 @@
 
   <!--Skills-->
   <section>
-    <div class="container p-3 bg-black my-3" id="skills">
+    <div class="container p-3 my-3" id="skills">
       <h1>SKILLS</h1>
       <div class="row">
         <div class="coontainer">
-
-          <div class="progress bg-black border mt-3" style="height: 20px;">
-            <div class="progress-bar bg-warning text-start" role="progressbar" aria-label="Example 1px high"
-              style="width:50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-              <span class="ps-3">Html</span>
+          <div class="skills mt-3">
+            <h2 class="ps-3 text-skills">Html</h2>
+            <div class="progress bg-skills mt-3" style="height: 5px;">
+              <div class="progress-bar bg-warning text-start" role="progressbar" aria-label="Example 1px high"
+                style="width:50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">   
+              </div>
             </div>
           </div>
-
-          <div class="progress bg-black border mt-5" style="height: 20px;">
+          
+          <div class="skills mt-3">
+          <h2 class="ps-3 text-skills"> Css </h2>
+          <div class="progress bg-skills" style="height: 5px;">
             <div class="progress-bar bg-info text-start" role="progressbar" aria-label="Example 1px high"
               style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <span class="ps-3"> Css </span>
             </div>
           </div>
+        </div>
 
-          <div class="progress bg-black border mt-5" style="height: 20px;">
+        <div class="skills mt-3">
+          <h2 class="ps-3 text-skills"> Css </h2>
+          <div class="progress bg-skills" style="height: 5px;">
             <div class="progress-bar bg-success text-start" role="progressbar" aria-label="Example 1px high"
               style="width:30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-              <span class="ps-3"> Bootstrap </span>
             </div>
+          </div>
           </div>
 
-          <div class="progress bg-black border mt-5" style="height: 20px;">
+          <div class="skills mt-3">
+          <h2 class="ps-3 text-skills">Javascript </h2>
+          <div class="progress bg-skills" style="height:5px;">
             <div class="progress-bar bg-danger text-start" role="progressbar" aria-label="Example 1px high"
               style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-              <span class="ps-3">Javascript </span>
             </div>
           </div>
+        </div>
 
 
         </div>
@@ -338,7 +345,7 @@
 
 
 
-  <footer class="container text-center text-lg-start bg-black text-muted footer-personal mb-5">
+  <footer class="container text-center text-lg-start  text-muted footer-personal mb-5">
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <div class="me-5 d-none d-lg-block">
         <span>Conéctate conmigo en las redes sociales:
@@ -395,6 +402,7 @@
         </div>
       </div>
     </section>
+   
     <div class="text-center" style="background-color: rgba(0, 0, 0, 0.025);">
       © 2022 Copyright:
       <a class="text-reset fw-bold" href="https://argentinaprograma.inti.gob.ar/">Antonio Castro</a>
